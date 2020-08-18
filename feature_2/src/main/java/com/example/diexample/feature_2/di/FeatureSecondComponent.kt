@@ -15,9 +15,9 @@ interface FeatureSecondComponent {
 
     @Component.Factory
     interface Factory {
+
         fun create(
-            dependencies: FeatureSecondDependencies,
-            featureSecondModule: FeatureSecondModule
+            dependencies: FeatureSecondDependencies
         ): FeatureSecondComponent
     }
 }
